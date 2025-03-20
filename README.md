@@ -1,0 +1,2 @@
+# MedSynGAN-A-Federated-GAN-System-for-Generating-Synthetic-Medical-Images
+MedSynGAN is a federated learning framework that generates synthetic chest X-ray images across distributed healthcare settings while preserving patient privacy. Integrating advanced GAN architectures (DCGAN, ProGAN), it achieves high-quality images (FID: 26.71, SSIM: 0.85, PSNR: 51.29) for AI training without compromising sensitive data.
