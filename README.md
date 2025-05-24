@@ -1,6 +1,6 @@
 # MedSynGAN: A Federated GAN System for Generating Synthetic Medical Images
 
-![Federated Learning Architecture](https://user-images.githubusercontent.com/placeholder/fed_learning_architecture.png)
+![Federated Learning Architecture](figure2.jpg)
 
 ## 🧠 Overview
 
@@ -59,9 +59,7 @@ Medical data is scarce, siloed, and governed by strict privacy regulations (HIPA
 
 ## 📸 Image Quality Samples
 
-| Original | DCGAN | ProGAN |
-|----------|-------|--------|
-| ![](https://user-images.githubusercontent.com/placeholder/original.png) | ![](https://user-images.githubusercontent.com/placeholder/dcgan.png) | ![](https://user-images.githubusercontent.com/placeholder/progan.png) |
+![Image Quality analysis](figure3.jpg)
 
 > **Fig:** Sample outputs from MedSynGAN-trained models
 
@@ -69,7 +67,7 @@ Medical data is scarce, siloed, and governed by strict privacy regulations (HIPA
 
 ## 🧠 Architecture
 
-![MedSynGAN Architecture](https://user-images.githubusercontent.com/placeholder/medsyngan_architecture.png)
+![MedSynGAN Architecture](figure1.png)
 
 - **Clients**: Train GANs locally on private datasets
 - **Server**: Aggregates model updates via Federated Averaging (FedAvg)
@@ -114,11 +112,6 @@ Medical data is scarce, siloed, and governed by strict privacy regulations (HIPA
 - Adaptive client-server update scheduling
 - Integration with segmentation annotations
 - Multi-modal image synthesis (e.g., X-ray + CT)
-
----
-
-## 🧰 Project Structure
-
 
 ---
 
